@@ -1,0 +1,144 @@
+:root {
+  --navy: #0A2540;
+  --white: #FFFFFF;
+  --green: #1E7F5C;
+  --gold: #D4AF37;
+  --choco: #3B2F2F;
+  --bg-light: #F5F7FA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--choco);
+}
+
+/* NAVIGATION */
+nav {
+  background-color: var(--navy);
+  padding: 14px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: var(--gold);
+  color: var(--navy);
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(
+    135deg,
+    var(--navy),
+    var(--green)
+  );
+  color: var(--white);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* CONTENT */
+.content {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content h2 {
+  color: var(--navy);
+  margin-bottom: 25px;
+  border-left: 6px solid var(--gold);
+  padding-left: 12px;
+}
+
+/* SEARCH INPUT */
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 2px solid var(--navy);
+  border-radius: 6px;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+/* CARD */
+.card {
+  background-color: var(--white);
+  border-left: 6px solid var(--green);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--navy);
+}
+
+.card small {
+  color: var(--choco);
+}
+
+/* CONTACT CARD */
+.contact-card {
+  background-color: var(--white);
+  border-left: 6px solid var(--gold);
+  padding: 25px;
+  max-width: 450px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* FOOTER (OPSIONAL) */
+footer {
+  background-color: var(--navy);
+  color: var(--white);
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 25px 15px;
+  }
+}
+/* CSS Document */
+

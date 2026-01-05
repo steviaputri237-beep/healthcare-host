@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>HealthCare Info  | Home</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<header class="hero">
+  <h1>HealthCare Info</h1>
+  <p>Portal Informasi Layanan Kesehatan Terpercaya</p>
+</header>
+
+<section class="content">
+  <h2>Tentang Website</h2>
+  <p>
+    HealthCare Info merupakan portal informasi yang menyediakan data fasilitas
+    kesehatan, layanan darurat, serta edukasi kesehatan untuk masyarakat umum.
+  </p>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Fasilitas Kesehatan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<section class="content">
+  <h2>Daftar Fasilitas Kesehatan</h2>
+
+<input
+  type="text"
+  id="search"
+  placeholder="Cari fasilitas kesehatan..."
+  onkeyup="filterFasilitas()"
+/>
+
+<select id="filterLayanan" onchange="filterFasilitas()">
+  <option value="">Semua Layanan</option>
+  <option value="igd">IGD</option>
+  <option value="rawat inap">Rawat Inap</option>
+  <option value="poli">Poli Umum</option>
+</select>
+
+<div id="fasilitas-list"></div>
+</section>
+
+<script src="javascript.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Detail Fasilitas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<section class="content">
+  <h2>Detail Fasilitas Kesehatan</h2>
+
+  <div class="card">
+    <h3>RS Umum Sehat</h3>
+    <p><strong>Lokasi:</strong> Jakarta</p>
+    <p><strong>Jam Operasional:</strong> 24 Jam</p>
+    <p><strong>Layanan:</strong> IGD, Rawat Inap, Poli Umum</p>
+    <p><strong>Telepon:</strong> (021) 123456</p>
+  </div>
+</section>
+
+<h3>Lokasi Fasilitas</h3>
+<iframe
+  src="https://www.google.com/maps?q=rumah+sakit+jakarta&output=embed"
+  width="100%"
+  height="300"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Edukasi Kesehatan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<section class="content">
+  <h2>Artikel & Edukasi Kesehatan</h2>
+
+  <div class="card">
+    <h3>Pola Hidup Sehat</h3>
+    <p>Menjaga pola makan seimbang dan rutin berolahraga dapat meningkatkan kesehatan.</p>
+  </div>
+
+  <div class="card">
+    <h3>Pencegahan Penyakit Menular</h3>
+    <p>Menjaga kebersihan diri dan lingkungan merupakan langkah pencegahan utama.</p>
+  </div>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Layanan Darurat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<section class="content">
+  <h2>Kontak Darurat</h2>
+
+  <div class="card">
+    <p><strong>Ambulans:</strong> 119</p>
+    <p><strong>Polisi:</strong> 110</p>
+    <p><strong>Pemadam Kebakaran:</strong> 113</p>
+  </div>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<section class="content">
+  <h2>Kontak Pengelola</h2>
+
+  <div class="contact-card">
+    <p><strong>Nama:</strong> HealthCare Info</p>
+    <p><strong>Email:</strong> info@healthcareinfo.com</p>
+    <p><strong>WhatsApp:</strong> +62 812-3456-7890</p>
+  </div>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tentang Kami</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="fasilitas.html">Fasilitas</a>
+  <a href="artikel.html">Edukasi</a>
+  <a href="darurat.html">Darurat</a>
+  <a href="contact.html">Kontak</a>
+  <a href="about.html">Tentang</a>
+</nav>
+
+<section class="content">
+  <h2>Tentang HealthCare Info</h2>
+  <p>
+    Website ini dikembangkan sebagai portal informasi layanan kesehatan
+    yang bertujuan membantu masyarakat memperoleh data fasilitas kesehatan
+    secara cepat dan akurat.
+  </p>
+</section>
+
+</body>
+</html>
